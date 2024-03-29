@@ -2,15 +2,14 @@ body{
 
   font-family:'Lato',sans-serif;
   font-family: 'Open Sans',sans-serif;
-  
 }
-.komola{
+.text-primary{
     color:#FD6E0A;
 }
 .btpr{
     border-radius:5px;
-    background: #FD6E0A;
-font-family: "Open Sans";
+    border: 0px;
+background: #FD6E0A;
 font-size: 20px;
 font-style: normal;
 font-weight: 700;
@@ -22,12 +21,11 @@ color:white;
 nav{
     display:flex;
     justify-content: space-between;
-align-items: center;
-margin: 0 200px;
+    align-items: center;
+    margin: 0 200px;
 }
 .nav-title{
     colour:#181818
-    font-family: Open sans;
     font-size:45px;
     font-style:Normal;
     font-weight:800;
@@ -47,14 +45,7 @@ nav a {
     text-decoration:none ;
     color:#474747;
 }
-.matha{
-    background-color:#FFF8F3; 
-    background-image: url('../portfolio-resources/images/header_bg.png');
-   background-repeat: no-repeat;
-   background-size: cover;
-
-}
-.likha{
+a{
     padding: 30px 30px 30px 150px;
  display: flex;
  align-items: center;
@@ -62,7 +53,52 @@ nav a {
 
 }
 .pp{
-    width: 584px;
+width: 584px;
 height: 676px;
 flex-shrink: 0;
 }
+.header{
+   background-color: #FFF8F3; 
+   background-image: url('header_bg.png');
+   background-repeat: no-repeat;
+   background-position: bottom right;
+}
+.banner{
+    padding:30px 30px 0px 150px;
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+}
+.banner-content{
+    max-width=500px;
+}
+.banner .pp{
+    width:500px;
+
+}
+.banner title{
+    font-size:85px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+ .about{
+    padding: 130px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin: 130px;
+    border-radius: 10px;
+ }
+ .section-title{
+color:#181818;
+text-align:center;
+font-weight: 700;
+font-size: 35px; 
+ }
+ .section-description{
+text-align: center;
+line-height: 30px;
+margin:130px 0px;
+
+
+ }
