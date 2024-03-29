@@ -23,6 +23,7 @@ nav{
     display:flex;
     justify-content: space-between;
 align-items: center;
+margin: 0 200px;
 }
 .nav-title{
     colour:#181818
@@ -45,4 +46,20 @@ nav li{
 nav a {
     text-decoration:none ;
     color:#474747;
+}
+.matha{
+    background-color:#FFF8F3; 
+}
+.likha{
+    padding: 30px 30px 30px 150px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+
+
+}
+.pp{
+    width: 584px;
+height: 676px;
+flex-shrink: 0;
 }
