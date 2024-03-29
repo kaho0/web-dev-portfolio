@@ -1,0 +1,48 @@
+body{
+
+  font-family:'Lato',sans-serif;
+  font-family: 'Open Sans',sans-serif;
+  
+}
+.komola{
+    color:#FD6E0A;
+}
+.btpr{
+    border-radius:5px;
+    background: #FD6E0A;
+font-family: "Open Sans";
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+padding: 15px 35px;
+color:white;
+
+}
+nav{
+    display:flex;
+    justify-content: space-between;
+align-items: center;
+}
+.nav-title{
+    colour:#181818
+    font-family: Open sans;
+    font-size:45px;
+    font-style:Normal;
+    font-weight:800;
+    line-height:Normal;
+
+
+}
+nav>ul{
+    display:flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    margin-right: 50px;
+}
+nav a {
+    text-decoration:none ;
+    color:#474747;
+}
