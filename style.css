@@ -49,13 +49,16 @@ nav a {
 }
 .matha{
     background-color:#FFF8F3; 
+    background-image: url('../portfolio-resources/images/header_bg.png');
+   background-repeat: no-repeat;
+   background-size: cover;
+
 }
 .likha{
     padding: 30px 30px 30px 150px;
  display: flex;
  align-items: center;
  justify-content: center;
-
 
 }
 .pp{
