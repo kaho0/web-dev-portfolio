@@ -70,10 +70,22 @@ flex-shrink: 0;
     justify-content: space-between;
 }
 .banner-content{
-    max-width=500px;
+    max-width = 500px;
 }
 .banner .pp{
     width:500px;
+
+}
+.banner-description{
+    color: var(--Dark-03, #757575);
+font-family: "Open Sans";
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+max-width: 585px;
+line-height: 30px;
+
+
 
 }
 .banner title{
@@ -101,4 +113,15 @@ line-height: 30px;
 margin:130px 0px;
 
 
+ }
+ main{
+    max-width: 1140px;
+    margin:0 auto;
+ }
+ .about-info-conatiner{
+    display: flex;
+    justify-content: space-around;
+ }
+ .about-info{
+    text-align: center;
  }
